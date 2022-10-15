@@ -1,0 +1,253 @@
+* {
+    font-family: sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+
+img {
+    border-radius: 300px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.bxs-moon:hover {
+    transform: rotate(360deg);
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Radio Canada', sans-serif;
+
+}
+
+
+
+h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left:55px;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Radio Canada', sans-serif;
+
+}
+
+.about {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 29px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.end2 {
+    margin-top: 300px;
+    margin-bottom: 20px;
+    margin-left: 315px;
+    color: #fff;
+    font-size: 29px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+h4 {
+    margin-top: -250px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    margin-right: 100px;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+a {
+    font-size: 50px;
+    color: #ddd;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+ 
+a:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 20px white);
+}
+
+
+
+    .bxs-caret-right-circle {
+        font-size: 40px;
+        margin: 130px;
+    }
+    
+    .bxs-moon {
+        font-size: 40px;
+        margin: 130px;
+    }
+
+
+/* ==============================   about   =============================== */
+/*
+    h2 {
+        margin-top: 25px;
+        margin-left: 10px;
+        color: #fff;
+        font-size: 20px;
+    }
+*/
+
+    .back {
+        opacity: 0.8;
+        font-size: 40px;
+        position: absolute;
+        right: 0;
+        margin-right: 15px;
+        border-radius: 300px;
+    }
+
+    a {
+        font-size: 30px;
+    }
+
+    h3 {
+        margin-top: 15px;
+        margin-left: 10px;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .about {
+        margin-top: 15px;
+        margin-left: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 15px;  
+        margin-bottom: 20px;      
+    }
+
+/* ==========================================================================*/
+
+    h4 {
+        margin-top: -250px;
+        margin-bottom: 50px;
+        margin-left: 350px;
+        margin-right: 100px;
+        color: #fff;
+        font-size: 15px;
+        font-family: 'Radio Canada', sans-serif;
+    }
+
+    h6 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left:26px;
+        color: #fff;
+        font-size: 40px;
+        font-family: 'Radio Canada', sans-serif;
+    
+    }
+/*    
+    .btn {
+        font-size: 40px;
+        background-color: #2f3136;
+        padding: 6px;
+        border-radius: 10px;
+        margin-top: 0px;
+    }
+*/
+
+    .btn1 {
+        margin: 7px;
+        margin-right: 15px;
+        font-size: 20spx;
+        /*float: right; */
+        color: #ffffff;
+        padding: 4px;
+        border-radius: 7px;
+
+    }
+
+    .nitro {
+        opacity: 0;
+        width: 40px;
+        height: 40px;
+        margin-top: 130px;
+    }
+
+    .ava {
+        margin-left: 69px;
+    }
+
+    .btn2 {
+        margin: 7px;
+        font-size: 20px;
+        margin-left: 100px;
+        color: #ffffff;
+        padding: 4px;
+        border-radius: 7px;
+    }
+
+    .btn3 {
+        margin: 15px;
+        font-size: 20px;
+        margin-left: 100px; 
+        color: #ffffff;
+        padding: 7px;
+        border-radius: 10px;
+    }
+
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video_media {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.resume {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.guild {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
